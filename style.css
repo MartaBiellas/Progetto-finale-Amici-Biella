@@ -305,7 +305,6 @@ p{line-height: 28px; color:#666; font-weight: 300;}
   text-align: center;
   margin-top: 1px solid white;
   background: #b69772c9;
-  ;
 }
 
 .end img{
@@ -315,7 +314,7 @@ p{line-height: 28px; color:#666; font-weight: 300;}
 .social img{
   text-align: right;
   width: 40px;
-  margin-right: 0px;
+  margin-left: 4px;
 }
 
 /* ! Content */
