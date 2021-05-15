@@ -9,6 +9,7 @@ h1, h2, h3, h4, h5, p{color:#000; padding-bottom: 20px;}
 p{line-height: 28px; font-weight: 300;}
 
 .big-text{font-size: 70px;font-weight: 900;}
+.big-texta {font-size: 100px;font-weight: 1000;}
 .med-text{font-size: 40px;}
 .normal-text{font-size: 20px;}
 .small-text{font-size: 14px;}
@@ -20,6 +21,7 @@ p{line-height: 28px; font-weight: 300;}
 
 @media (max-width: 768px) {
   .big-text{font-size: 40px;}
+  .big-texta{font-size: 55px;}
 }
 
 @media (max-width: 1150px) {
@@ -183,8 +185,7 @@ p{line-height: 28px; font-weight: 300;}
 
 /* ! Grid */
 
-.grid{display: flex; max-width: 1350px; padding: 0 30px; margin: 0 auto;}
-.grid {width: 100%;}
+.grid{display: flex; width: 100%; max-width: 1350px; padding: 0 30px; margin: 0 auto;}
 .col{width: 100%; margin-bottom: 0px;}
 .mar{width: 25%; margin-right: 50px; margin-left: 50px; margin-bottom: 0px;}
 .center {align-items: center;}
@@ -247,11 +248,10 @@ p{line-height: 28px; font-weight: 300;}
   height: 262px;
   width: 262px;
   background: #6adf91;border-radius: 100%;
-  line-height: 250px;
+  line-height: 262px;
   text-align: center;
   display: inline-block;
   margin: 10px;
-  line-height: 240px;
 }
 .dota a{
   color: white; 
