@@ -192,6 +192,7 @@ p{line-height: 28px; font-weight: 300;}
 
 @media (max-width: 768px) {
   .grid{flex-wrap: wrap}
+  .mar{margin: 0%; margin-bottom: 20px;}
 }
 
 /* ! Carousel */
@@ -217,7 +218,7 @@ p{line-height: 28px; font-weight: 300;}
 .carosello{
   counter-increment: faseIndex;
     width: 280px;
-    padding: 0px;
+    padding: 10px;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
     -ms-flex-negative: 0;
@@ -270,8 +271,9 @@ p{line-height: 28px; font-weight: 300;}
 /* Footer */
 
 .footer{
-  padding: 150px 0;
+  padding: 50px 0;
   margin-bottom: 0px;
+  padding-top: 100px;
 }
 
 .footer img{
@@ -318,7 +320,7 @@ p{line-height: 28px; font-weight: 300;}
 .mt-2{margin-top: 100px;}
 .mt-3{background: #ffecd5;}
 .mt-4{background: linear-gradient(to left, #ffb254, #ffecd5 50%, #eee 62%, #ffb254 62%);}
-.mt-5{background: #b69772c9;}
+.mt-5{background: linear-gradient(to top, #b69772c9, #ffecd5);}
 
 .tw{color: rgb(143, 69, 0)}
 
