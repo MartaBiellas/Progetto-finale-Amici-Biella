@@ -332,6 +332,164 @@ p{line-height: 28px; font-weight: 300;}
 
 
 
+.sfondo{}
+
+.sfondo img{
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+  -ms-interpolation-mode: bicubic;
+}
+
+.testo{
+  text-align: left;
+}
+
+.p1{
+  text-align: left;
+  margin-right: 5px;
+}
+
+/* roba da rivedere copiata----- */
+
+
+.ul{
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+
+  margin-bottom: 1rem;
+  list-style-position: outside;
+  line-height: 1.6;
+}
+
+.ull{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.ull li{
+  width: auto;
+  -ms-flex-positive: 2;
+  flex-grow: 2;
+  padding: 10px 0;
+  margin: 0;
+  font-weight: 300;
+  font-size: .88889rem;
+  line-height: 1rem;
+  color: #393535;
+  text-align: left;
+}
+}
+
+
+.icons{
+  font-family: "icons";
+   font-style: normal;
+   font-weight: normal;
+   speak: none;
+   text-decoration: inherit;
+   text-align: center;
+   text-transform: none;
+   line-height: 1em;
+   display: inline-block;
+   vertical-align: top;
+   font-variant: normal;
+   -webkit-font-smoothing: antialiased;
+}
+
+
+.ul.icons li:before {
+  position: absolute;
+  top: -10px;
+  left: -60px;
+  height: 50px;
+  width: 50px;
+  font-size: 50px;
+  line-height: 50px;
+  color: #f8ae4d;
+}
+
+ul.icons li:before .pallini{
+  color: rgb(255,100,70);
+}
+
+.pallini{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 15px;
+  background: #f8ae4d;
+  vertical-align: top;
+  border-radius: 100%;
+  opacity: 0.2;
+}
+
+.pallini-titolo{
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  line-height: 1.11111rem;
+  color: #000;
+  text-transform: uppercase;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+
+.tabelle{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+}
+
+
+
+
+
+
+
+
 *,
 *:before,
 *:after {
