@@ -182,6 +182,21 @@ p{line-height: 28px; font-weight: 300;}
   .bg-cover__title{width: 100%;}
 }
 
+.testo{
+  text-align: left;
+  padding: 100px;
+}
+
+.testo h4{
+  width: 15%;
+  float: left;
+}
+
+.testo p{
+  width: 85%;
+  float: left;
+}
+
 
 /* ! Grid */
 
@@ -340,9 +355,6 @@ p{line-height: 28px; font-weight: 300;}
   -ms-interpolation-mode: bicubic;
 }
 
-.testo{
-  text-align: left;
-}
 
 .p1{
   text-align: left;
@@ -364,10 +376,11 @@ p{line-height: 28px; font-weight: 300;}
   margin-bottom: 1rem;
   list-style-position: outside;
   line-height: 1.6;
+  float: left; 
 }
 
 .ull{
-  width: 100%;
+   width: 100%;
   margin: 0;
   padding: 0;
   display: -ms-flexbox;
@@ -381,19 +394,21 @@ p{line-height: 28px; font-weight: 300;}
   -ms-flex-align: start;
   align-items: flex-start;
   -ms-flex-line-pack: start;
-  align-content: flex-start;
+  align-content: flex-start; 
 
-  display: block;
+  /* display: block;
   list-style-type: disc;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 40px;
+  float: left; */
+
 }
 
 .ull li{
-  width: auto;
+  /* width: auto;
   -ms-flex-positive: 2;
   flex-grow: 2;
   padding: 10px 0;
@@ -403,15 +418,14 @@ p{line-height: 28px; font-weight: 300;}
   line-height: 1rem;
   color: #393535;
   text-align: left;
-}
+  float: left; */
 }
 
 
 .icons{
-  font-family: "icons";
+  /* font-family: "icons";
    font-style: normal;
    font-weight: normal;
-   speak: none;
    text-decoration: inherit;
    text-align: center;
    text-transform: none;
@@ -419,23 +433,23 @@ p{line-height: 28px; font-weight: 300;}
    display: inline-block;
    vertical-align: top;
    font-variant: normal;
-   -webkit-font-smoothing: antialiased;
+   -webkit-font-smoothing: antialiased; */
 }
 
 
 .ul.icons li:before {
-  position: absolute;
+  /* position: absolute;
   top: -10px;
   left: -60px;
   height: 50px;
   width: 50px;
   font-size: 50px;
   line-height: 50px;
-  color: #f8ae4d;
+  color: #f8ae4d; */
 }
 
 ul.icons li:before .pallini{
-  color: rgb(255,100,70);
+  /* color: rgb(255,100,70); */
 }
 
 .pallini{
@@ -456,10 +470,15 @@ ul.icons li:before .pallini{
   line-height: 1.11111rem;
   color: #000;
   text-transform: uppercase;
+  float: central bottom;
+}
+
+.active{
+  background: blue;
 }
 
 *, *::before, *::after {
-  box-sizing: inherit;
+  /* box-sizing: inherit; */
 }
 
 
@@ -479,6 +498,7 @@ ul.icons li:before .pallini{
   align-items: flex-start;
   -ms-flex-line-pack: start;
   align-content: flex-start;
+  float: left;
 }
 
 
