@@ -216,6 +216,47 @@ p{line-height: 28px; font-weight: 300;}
   }
 }
 
+.elenco{
+  width: 80%;
+  float: center;
+  padding: 10px;
+}
+
+.elenco-testo-l{
+float: left;
+width: 50%;
+position: relative;
+display: block;
+}
+
+.elenco-testo-r{
+float: right;
+width: 50%;
+position: relative;
+display: block;
+}
+
+.elenco-img-r{
+float: right;
+width: 50%;
+display: inline-block;
+vertical-align: middle;
+max-width: 100%;
+height: auto;
+-ms-interpolation-mode: bicubic;
+}
+
+.elenco-img-l{
+float: left;
+width: 50%;
+display: inline-block;
+vertical-align: middle;
+max-width: 100%;
+height: auto;
+-ms-interpolation-mode: bicubic;
+}
+
+
 
 /* ! Grid */
 
