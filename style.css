@@ -220,12 +220,14 @@ p{line-height: 28px; font-weight: 300;}
 /* ! Grid */
 
 .grid{display: flex; width: 100%; max-width: 1350px; padding: 0 30px; margin: 0 auto;}
+.gridr{display: flex; width: 100%; max-width: 1350px; padding: 30px 0; margin: 0 auto;}
 .col{width: 100%; margin-bottom: 0px;}
 .mar{width: 25%; margin-right: 50px; margin-left: 50px; margin-bottom: 0px;}
 .center {align-items: center;}
 
 @media (max-width: 768px) {
   .grid{flex-wrap: wrap}
+  .gridr{flex-wrap: wrap}
   .mar{margin: 0%; margin-bottom: 20px;}
 }
 
@@ -278,11 +280,31 @@ p{line-height: 28px; font-weight: 300;}
 
 /* Panel Blue */
 .panel-blue{background: #ffecd5;padding: 100px 30px;}
-.panel-blue__text{display: flex; align-items: center;}
+
+.panel-blue__text{display: inline; align-items: center;}
+.panel-blue__dotsl{float: left; width: 100%;}
+.panel-blue__dotsr{float: right; width: 100%;}
+
+.panel-blue__dotsr p{
+  float: right;
+}
+
+.panel-bluel__dotsl p{
+  float: left;
+}
+
+@media (max-width: 900px) {
+  .panel-blue__dotsl{flex-wrap: wrap; height: auto; padding: 30px}
+  .panel-blue__dotsr{flex-wrap: wrap; height: auto; padding: 30px}
+  .panel-blue__dotsl p{width: 100%;}
+  .panel-blue__dotsr p{width: 100%;}
+}
+
 .dota{
   height: 262px;
   width: 262px;
-  background: #6adf91;border-radius: 100%;
+  background: #6adf91;
+  border-radius: 100%;
   line-height: 262px;
   text-align: center;
   display: inline-block;
@@ -299,7 +321,8 @@ p{line-height: 28px; font-weight: 300;}
   font-weight: bold;
   line-height: 50px;
   text-align: center;
-  color:rgba(0,0,0, 0.9)
+  color:rgba(0,0,0, 0.9);
+  /*background-color: #fff;*/
 }
 
 /* Footer */
@@ -324,11 +347,6 @@ p{line-height: 28px; font-weight: 300;}
 /* ! Content */
 
 .content{max-width: 900px; margin: 40px auto;}
-
-/* ! Content */
-
-.content{max-width: 900px; margin: 40px auto;}
-
 
 /*Zoom*/
 .zoom{
@@ -437,7 +455,6 @@ p{line-height: 28px; font-weight: 300;}
   line-height: 1rem;
   color: #393535;
   text-align: left;
-  float: left; */
 }
 
 
