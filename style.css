@@ -93,14 +93,14 @@ p{line-height: 28px; font-weight: 300;}
 }
 
 .hero:after{
-  content: ' ';
+  /* content: ' ';
   width: 100%;
   height: 100%;
   display: block;
   position: absolute;
   top:0; left:0;
   background: #000;
-  opacity: 0.4
+  opacity: 0.4 */
 }
 
 .hero__content{
@@ -195,6 +195,25 @@ p{line-height: 28px; font-weight: 300;}
 .testo p{
   width: 85%;
   float: left;
+}
+
+@media (max-width: 768px) {
+  .testo{
+    padding: 10px;
+  }
+  
+  .testo h4{
+    width: 15%;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 1.55556rem;
+  }
+  
+  .testo p{
+    width: 85%;
+    font-size: .88889rem;
+    line-height: 1.11111rem;
+  }
 }
 
 
@@ -347,12 +366,10 @@ p{line-height: 28px; font-weight: 300;}
 
 
 
-.sfondo{}
-
-.sfondo img{
+.sfondo{
   display: inline-block;
   vertical-align: middle;
-  max-width: 100%;
+  width: 100%;
   height: auto;
   -ms-interpolation-mode: bicubic;
 }
@@ -378,7 +395,7 @@ p{line-height: 28px; font-weight: 300;}
   margin-bottom: 1rem;
   list-style-position: outside;
   line-height: 1.6;
-  float: left; 
+  float: left;
 }
 
 .ull{
@@ -462,7 +479,7 @@ ul.icons li:before .pallini{
   background: #f8ae4d;
   vertical-align: top;
   border-radius: 100%;
-  opacity: 0.2;
+  opacity: 0.4;
 }
 
 .pallini-titolo{
@@ -475,8 +492,14 @@ ul.icons li:before .pallini{
   float: central bottom;
 }
 
-.active{
-  background: blue;
+.pallini-active{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 15px;
+  background: #f8ae4d;
+  vertical-align: top;
+  border-radius: 100%;
 }
 
 *, *::before, *::after {
