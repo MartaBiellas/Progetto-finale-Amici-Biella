@@ -208,6 +208,7 @@ p{line-height: 28px; font-weight: 300;}
 
 @media (max-width: 768px) {
   .grid{flex-wrap: wrap}
+  .gridr{flex-wrap: wrap}
   .mar{margin: 0%; margin-bottom: 20px;}
 }
 
@@ -267,12 +268,17 @@ p{line-height: 28px; font-weight: 300;}
 
 .panel-blue__dotsr p{
   float: right;
-  width: 60%;
 }
 
 .panel-bluel__dotsl p{
   float: left;
-  width: 60%;
+}
+
+@media (max-width: 900px) {
+  .panel-blue__dotsl{flex-wrap: wrap; height: auto; padding: 30px}
+  .panel-blue__dotsr{flex-wrap: wrap; height: auto; padding: 30px}
+  .panel-blue__dotsl p{width: 100%;}
+  .panel-blue__dotsr p{width: 100%;}
 }
 
 .dota{
