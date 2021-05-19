@@ -14,7 +14,7 @@ p{line-height: 28px; font-weight: 300;}
 .normal-text{font-size: 20px;}
 .small-text{font-size: 14px;}
 
-.intro-text{text-transform: uppercase;font-size: 20px;font-weight: bold;}
+.intro-text{font-size: 20px;font-weight: bold;}
 
 .button{padding: 18px 28px; background: #ca0000; color:#fff; display: inline-block;border-radius: 4px}
 .prod{margin-left: 42%; padding: 18px 28px; background: #ca0000; color:#fff; border-radius: 4px}
@@ -113,10 +113,10 @@ p{line-height: 28px; font-weight: 300;}
 }
 
 .hero__content h1,
-.hero__content p{color: #fff;}
+.hero__content p{color: whitesmoke}
 
-.hero--small{height: 450px;text-align: center;}
-
+.hero--small{height:100vh;text-align: center;}
+.hero--small img{position: relative; width: 100%}
 
 #video-back{
   position:relative;
@@ -216,47 +216,6 @@ p{line-height: 28px; font-weight: 300;}
   }
 }
 
-.elenco{
-  width: 80%;
-  float: center;
-  padding: 10px;
-}
-
-.elenco-testo-l{
-float: left;
-width: 50%;
-position: relative;
-display: block;
-}
-
-.elenco-testo-r{
-float: right;
-width: 50%;
-position: relative;
-display: block;
-}
-
-.elenco-img-r{
-float: right;
-width: 50%;
-display: inline-block;
-vertical-align: middle;
-max-width: 100%;
-height: auto;
--ms-interpolation-mode: bicubic;
-}
-
-.elenco-img-l{
-float: left;
-width: 50%;
-display: inline-block;
-vertical-align: middle;
-max-width: 100%;
-height: auto;
--ms-interpolation-mode: bicubic;
-}
-
-
 
 /* ! Grid */
 
@@ -321,24 +280,36 @@ height: auto;
 
 /* Panel Blue */
 .panel-blue{background: #ffecd5;padding: 100px 30px;}
-
-.panel-blue__text{display: inline; align-items: center;}
-.panel-blue__dotsl{float: left; width: 100%;}
-.panel-blue__dotsr{float: right; width: 100%;}
-
-.panel-blue__dotsr p{
+.article{padding: 5%}
+.dp{padding-left: 10%;}
+.prova {
+  overflow: auto;
+  padding: 0.04px;
+  display: inline-block;
+}
+.panel-blue__dotsr{
+  align-items: center;
+  width: 40%;
   float: right;
 }
-
-.panel-bluel__dotsl p{
+.panel-blue__textr{
+  width: 60%;
+  float: right;
+}
+.panel-blue__dotsl{
+  align-items: center;
+  width: 40%;
+  float: left;
+}
+.panel-blue__textl{
+  width: 60%;
   float: left;
 }
 
-@media (max-width: 900px) {
-  .panel-blue__dotsl{flex-wrap: wrap; height: auto; padding: 30px}
-  .panel-blue__dotsr{flex-wrap: wrap; height: auto; padding: 30px}
-  .panel-blue__dotsl p{width: 100%;}
-  .panel-blue__dotsr p{width: 100%;}
+@media (max-width: 930px) {
+  .panel-blue__dotsr, .panel-blue__dotsl {width: 100%;}
+  .panel-blue__textr, .panel-blue__textl {width: 100%;}
+  .dp{padding: 4%;}
 }
 
 .dota{
@@ -583,11 +554,6 @@ ul.icons li:before .pallini{
   align-content: flex-start;
   float: left;
 }
-
-
-
-
-
 
 
 
