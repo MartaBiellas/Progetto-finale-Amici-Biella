@@ -14,7 +14,7 @@ p{line-height: 28px; font-weight: 300;}
 .normal-text{font-size: 20px;}
 .small-text{font-size: 14px;}
 
-.intro-text{font-size: 20px;font-weight: bold;}
+.intro-text{font-size: 30px; font-weight: bold; line-height: 38px}
 
 .button{padding: 18px 28px; background: #ca0000; color:#fff; display: inline-block;border-radius: 4px}
 .prod{margin-left: 42%; padding: 18px 28px; background: #ca0000; color:#fff; border-radius: 4px}
@@ -112,8 +112,8 @@ p{line-height: 28px; font-weight: 300;}
   position: absolute;
 }
 
-.hero__content h1,
-.hero__content p{color: whitesmoke}
+.hero__content h1, .hero__content p {color: white;}
+
 
 .hero--small{height:100vh;text-align: center;}
 .hero--small img{position: relative; width: 100%}
