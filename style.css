@@ -87,7 +87,7 @@ p{line-height: 28px; font-weight: 300;}
   position: relative;
   height: 100vh;
   display: flex; width: 100%; align-items: center;
-  background: rgb(255, 94, 0);
+  background: rgba(109, 0, 0, 0.781);
   background-size: cover;
   overflow: hidden;
 }
@@ -138,8 +138,8 @@ p{line-height: 28px; font-weight: 300;}
   align-items: center;
 }
 
-.poster__img{width: 40%; height: 85%;}
-.poster__img img{object-fit: cover; width: 100%;height: 100%;}
+.poster__img{width: 40%; align-items: center;}
+.poster__img img{width: 100%}
 .poster__content{width: 60%;padding: 40px;}
 
 @media (max-width: 768px) {
@@ -350,14 +350,12 @@ p{line-height: 28px; font-weight: 300;}
 /* ! Grid */
 
 .grid{display: flex; width: 100%; max-width: 1350px; padding: 0 30px; margin: 0 auto;}
-.gridr{display: flex; width: 100%; max-width: 1350px; padding: 30px 0; margin: 0 auto;}
 .col{width: 100%; margin-bottom: 0px;}
 .mar{width: 25%; margin-right: 50px; margin-left: 50px; margin-bottom: 0px;}
 .center {align-items: center;}
 
 @media (max-width: 768px) {
   .grid{flex-wrap: wrap}
-  .gridr{flex-wrap: wrap}
   .mar{margin: 0%; margin-bottom: 20px;}
 }
 
@@ -412,7 +410,7 @@ p{line-height: 28px; font-weight: 300;}
 .panel-blue{background: #ffecd5;padding: 100px 30px;}
 .article{padding: 5%}
 .dp{padding-left: 10%;}
-.prova {
+.prov {
   overflow: auto;
   padding: 0.04px;
   display: inline-block;
@@ -432,13 +430,14 @@ p{line-height: 28px; font-weight: 300;}
   float: left;
 }
 .panel-blue__textl{
+  text-align: right;
   width: 60%;
   float: left;
 }
 
 @media (max-width: 930px) {
   .panel-blue__dotsr, .panel-blue__dotsl {width: 100%;}
-  .panel-blue__textr, .panel-blue__textl {width: 100%;}
+  .panel-blue__textr, .panel-blue__textl {width: 100%; text-align: left;}
   .dp{padding: 4%;}
 }
 
@@ -509,7 +508,7 @@ p{line-height: 28px; font-weight: 300;}
 
 
 /* ! Helpers */
-
+.mt-0{padding-left: 10%; padding-right: 10%; padding-top: 15%;}
 .mt-1{margin-top: 50px;}
 .mt-2{margin-top: 100px;}
 .mt-3{background: #ffecd5;}
@@ -525,6 +524,7 @@ p{line-height: 28px; font-weight: 300;}
 }
 
 
+/* roba da rivedere ----- */
 
 .sfondo{
   display: inline-block;
@@ -534,14 +534,10 @@ p{line-height: 28px; font-weight: 300;}
   -ms-interpolation-mode: bicubic;
 }
 
-
 .p1{
   text-align: left;
   margin-right: 5px;
 }
-
-/* roba da rivedere ----- */
-
 
 .ul{
   /* display: block;
