@@ -20,12 +20,13 @@ p{line-height: 28px; font-weight: 300;}
 .prod{margin-left: 42%; padding: 18px 28px; background: #ca0000; color:#fff; border-radius: 4px}
 
 @media (max-width: 768px) {
-  .big-text{font-size: 40px;}
+  .big-text{font-size: 50px;}
   .big-texta{font-size: 55px;}
+  .intro-text{font-size: 20px; line-height: 28px}
 }
 
 @media (max-width: 1150px) {
-  .big-text{font-size: 40px;}
+  .big-text{font-size: 60px;}
 }
 
 /* ! Header */
@@ -39,7 +40,6 @@ p{line-height: 28px; font-weight: 300;}
   transform: translateX(-50%);
   padding: 30px;
   display: flex;
-  max-width: 1350px;
 }
 
 .logo{z-index: 1}
@@ -55,7 +55,13 @@ p{line-height: 28px; font-weight: 300;}
 }
 
 .menu li{display: inline-block;}
-.menu li a{color: #fff;padding: 15px;display: block;}
+.menu li a{
+  color: white;
+  text-shadow: 0px 0px 5px rgb(0, 0, 0);
+  padding: 15px;
+  font-weight: bold;
+  display: block;
+}
 
 .hamburger{display: none;}
 
@@ -86,8 +92,9 @@ p{line-height: 28px; font-weight: 300;}
 .hero{
   position: relative;
   height: 100vh;
+  width: 100%;
   display: flex; width: 100%; align-items: center;
-  background: rgba(109, 0, 0, 0.781);
+  background: rgba(255, 0, 0, 0.2);
   background-size: cover;
   overflow: hidden;
 }
@@ -105,18 +112,17 @@ p{line-height: 28px; font-weight: 300;}
 
 .hero__content{
   width: 100%;
-  max-width: 1350px;
   margin: 0 auto;
   padding: 30px;
   z-index: 1;
   position: absolute;
 }
 
-.hero__content h1, .hero__content p {color: white;}
+.hero__content h1, .hero__content p {color: white; text-shadow: 0px 0px 5px rgb(0, 0, 0)}
 
 
 .hero--small{height:100vh;text-align: center;}
-.hero--small img{position: relative; width: 100%}
+.hero--small img{position: absolute; width: 100%;}
 
 #video-back{
   position:relative;
@@ -489,7 +495,7 @@ p{line-height: 28px; font-weight: 300;}
 
 /* ! Grid */
 
-.grid{display: flex; width: 100%; max-width: 1350px; padding: 0 30px; margin: 0 auto;}
+.grid{display: flex; width: 100%; padding: 0 30px; margin: 0 auto;}
 .col{width: 100%; margin-bottom: 0px;}
 .mar{width: 25%; margin-right: 50px; margin-left: 50px; margin-bottom: 0px;}
 .center {align-items: center;}
@@ -654,6 +660,7 @@ p{line-height: 28px; font-weight: 300;}
 .mt-3{background: #ffecd5;}
 .mt-4{background: linear-gradient(to left, #ffb254, #ffecd5 50%, #eee 62%, #ffb254 62%);}
 .mt-5{background: linear-gradient(to top, #b69772c9, #ffecd5);}
+.mt-6{background: linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0, 0.9))}
 
 .tw{color: rgb(143, 69, 0)}
 
