@@ -154,6 +154,7 @@ p{line-height: 28px; font-weight: 300;}
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
   color: transparent;
