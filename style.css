@@ -92,16 +92,6 @@ p{line-height: 28px; font-weight: 300;}
   overflow: hidden;
 }
 
-.hero:after{
-  /* content: ' ';
-  width: 100%;
-  height: 100%;
-  display: block;
-  position: absolute;
-  top:0; left:0;
-  background: #000;
-  opacity: 0.4 */
-}
 
 .hero__content{
   width: 100%;
@@ -157,7 +147,7 @@ p{line-height: 28px; font-weight: 300;}
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
   color: transparent;
@@ -209,7 +199,6 @@ p{line-height: 28px; font-weight: 300;}
   float: left;
 }
 
-
 .icons{
   display: inline-block;
   overflow: auto;
@@ -231,142 +220,31 @@ p{line-height: 28px; font-weight: 300;}
 }
 
 .ciao{
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   /* padding: 0.04px; */
   padding: 0px;
   display: inline-block;
-  overflow: auto;
-  width: 100%;
+  overflow: hidden;
+  width: 19.6%;
   border-bottom: 4px solid red;
 }
 
 .ciao img{
-  width: 19.6%;
-  height: 17%;
+  width: 100%;
+  height: auto;
   display: inline-block;
   /* padding: 1%; */
   margin-bottom: 0px;
   overflow: auto;
  }
 
-
-@media (max-width: 1200px) {
-  .testo{
-    display: flex;
-    flex-flow: row wrap;
-    margin-right: -.55556rem;
-    margin-left: -.55556rem;
-    padding-right: .55556rem;
-    padding-left: .55556rem;
-    max-width: 68.33333rem;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    padding: 0;
-  }
-  
-  .testo h4{
-    margin-bottom: 0px;
-    flex: 0 0 auto;
-    min-height: 0px;
-    min-width: 0px;
-    width: 100%;
-    padding-right: .55556rem;
-    padding-left: .55556rem;
-    font-size: 1rem;
-    line-height: 1.55556rem;
-    flex-basis: auto;
-    max-width: 100%;
-    display: block;
-  }
-  
-  .testo p{
-    display: inline-block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-size: inherit;
-    line-height: 1.6;
-    text-rendering: optimizeLegibility;
-    margin: 0;
-    padding: 0;
-    /* margin-bottom: 50px; */
-    padding-right: .55556rem;
-    padding-left: .55556rem;
-    flex-basis: auto;
-    min-height: 0px;
-    min-width: 0px;
-    width: 100%;
-    flex: 0 0 100%;
-  }
-
-  .icons{
-    display: inline-block;
-    overflow: auto;
-    padding: 0.04px;
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  
-  .icons img{
-    width: 50px;
-    height: 50px;
-    float: center;
-    margin-left: 45%;
-    margin-right: 45%;
-  }
-  
-  .icons p{
-    width: 100%;
-    float: center;
-    text-align: center;
-    padding-bottom: 0px;
-  }
-
-  .prova{
-    width: 100%;
-    float: left;
-  }
-
-  .ciao{
-    margin-bottom: 30px;
-    /* padding: 0.04px; */
-    padding: 0px;
-    display: inline-block;
-    overflow: auto;
-    width: 100%;
-    border-bottom: 3px solid red;
-  }
-
-  .ciao img{
-    /* width: 19%; */
-    /* height: 17%; */
-    /* display: inline-block; */
-    /* padding: 1%; */
-    margin-bottom: 0px;
-    overflow: auto;
-   }
-}
-
-@media (max-width: 500px){
-  .ciao{
-    margin-bottom: 30px;
-    /* padding: 0.04px; */
-    padding: 0px;
-    display: inline-block;
-    overflow: auto;
-    width: 100%;
-    border-bottom: 2px solid red;
-  }
-
-  .ciao img{
-    width: 18%;
-    height: 17%;
-    /* padding: 1%; */
-    margin-bottom: 0;
-    overflow: auto;
-    display: inline-block;
-   }
+ .fila{
+  margin-bottom: 30px;
+  /* padding: 0.04px; */
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
+  /* border: 2px solid yellow; */
 }
 
 .sfondo{
@@ -374,7 +252,7 @@ p{line-height: 28px; font-weight: 300;}
   vertical-align: middle;
   width: 100%;
   height: auto;
-  -ms-interpolation-mode: bicubic;
+  /* -ms-interpolation-mode: bicubic; */
 }
 
 .p1{
@@ -392,10 +270,10 @@ p{line-height: 28px; font-weight: 300;}
   justify-content: space-between;
   margin-bottom: 40px;
   
-  flex-direction: row;
+  /* flex-direction: row;
   flex-wrap: nowrap;
   align-items: flex-start;
-  align-content: flex-start;
+  align-content: flex-start; */
 }
 
 .pallini{
@@ -443,7 +321,7 @@ p{line-height: 28px; font-weight: 300;}
   margin-bottom: 30px;
   /* padding: 0.04px; */
   display: inline-block;
-  overflow: auto;
+  overflow: hidden;
   width: 100%;
 }
 
@@ -456,8 +334,8 @@ p{line-height: 28px; font-weight: 300;}
 }
 
 
-
 @media (max-width: 1200px) {
+
   .ull{
     width: 100%;
     padding-left: 0px;
@@ -480,7 +358,105 @@ p{line-height: 28px; font-weight: 300;}
     /* vertical-align: top; */
     border-radius: 100%;
   }
+
+  .testo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+    /* display: flex; */
+    flex-flow: row wrap;
+  }
+  
+  .testo h4{
+    width: 100%;
+    padding: 5px;
+  }  
+  
+  .testo p{
+    width: 100%;
+    padding: 5px;
+  }
+
+  .icons{
+    display: inline-block;
+    overflow: auto;
+    padding: 0.04px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .icons img{
+    width: 50px;
+    height: 50px;
+    float: center;
+    margin-left: 47%;
+    margin-right: 43%;
+  }
+  
+  .icons p{
+    width: 100%;
+    float: center;
+    text-align: center;
+    padding-bottom: 0px;
+  }
+
+  .prova{
+    width: 100%;
+    float: left;
+  }
+
+  .ciao{
+    /* margin-bottom: 30px; */
+    /* padding: 0.04px; */
+    padding: 0px;
+    display: inline-block;
+    overflow: auto;
+    width: 19.2%;
+    border-bottom: 3px solid red;
+    
+  }
+
+  .ciao img{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    /* padding: 1%; */
+    margin-bottom: 0px;
+    overflow: auto;
+   }
 }
+
+@media (max-width: 500px){
+  .ciao{
+    /* margin-bottom: 30px; */
+    /* padding: 0.04px; */
+    padding: 0px;
+    display: inline-block;
+    overflow: auto;
+    width: 18.9%;
+    /* border-bottom: 2px solid red; */
+  }
+
+  .ciao img{
+    width: 100%;
+    height: auto;
+    /* padding: 1%; */
+    margin-bottom: 0;
+    overflow: auto;
+    display: inline-block;
+   }
+
+   .fila{
+    margin-bottom: 30px;
+    /* padding: 0.04px; */
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    /* border: 2px solid yellow; */
+  }
+}
+
+
 
 
 
@@ -636,7 +612,7 @@ p{line-height: 28px; font-weight: 300;}
   -moz-transition: 1s ease; /* Firefox */
   -webkit-transition: 1s ease; /* Chrome - Safari */
   -o-transition: 1s ease; /* Opera */
-  -ms-transform : 1s ease; /* IE */
+  transform : 1s ease; /* IE */
 } 
 .zoom:hover{
   transform : scale(1.3);
@@ -661,13 +637,6 @@ p{line-height: 28px; font-weight: 300;}
   .mt-sma-0{margin-top: 0}
   .mb-sma-0{margin-bottom: 0}
   .mt-4{background: #ffb254}
-}
-
-
-
-
-*, *::before, *::after {
-  /* box-sizing: inherit; */
 }
 
 
