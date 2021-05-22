@@ -45,13 +45,14 @@ p{line-height: 28px; font-weight: 300;}
 .logo{z-index: 1}
 
 .logo img{
-  width: 50px;
+  width: 60px;
 }
 
 .menu{
   transition: all 1s cubic-bezier(.215, .61, .355, 1);
   width: 100%;
   z-index: 0;
+  padding-left: 9px;
 }
 
 .menu li{display: inline-block;}
@@ -65,13 +66,24 @@ p{line-height: 28px; font-weight: 300;}
 
 .hamburger{display: none;}
 
-@media (max-width: 768px) {
+
+.social img{
+  text-align: right;
+  width: 40px;
+  margin-left: 10px;
+}
+
+@media (max-width: 779px) {
 
   .cta{display: none;}
 
-  .menu{position: absolute; top:0; right:-100%;background: #000;height: 100vh;padding-top: 80px;}
-  .menu li{display: block;}
-  .menu li a{padding: 15px 30px;font-size: 20px;}
+  .menu{position: absolute; top:0; right:-100%; background: burlywood; height: 100vh; padding-top: 80px;}
+  .menu li{display: block; text-align: center;}
+  .menu li a{padding: 15px 30px; font-size: 20px; line-height: 25px;}
+
+  .menu li a:hover {
+    text-decoration: underline;
+  }
 
   .menu--open{right:0%;}
 
@@ -83,6 +95,13 @@ p{line-height: 28px; font-weight: 300;}
     top:40px;
     right:30px
   }
+
+  .logo img{width: 50px;}
+  .social img{
+    text-align: center;
+    width: 30px;
+  }
+
   .hamburger span{background: #fff;height: 3px;width: 100%;display: block;margin-bottom: 5px;}
 
 }
@@ -94,7 +113,7 @@ p{line-height: 28px; font-weight: 300;}
   height: 100vh;
   width: 100%;
   display: flex; width: 100%; align-items: center;
-  background: rgba(255, 0, 0, 0.2);
+  background: rgba(255, 115, 0, 0.747);
   background-size: cover;
   overflow: hidden;
 }
@@ -600,12 +619,6 @@ p{line-height: 28px; font-weight: 300;}
 .footer img{
   width: 100px;
   margin-bottom: 0px;
-}
-
-.social img{
-  text-align: right;
-  width: 40px;
-  margin-left: 4px;
 }
 
 /* ! Content */
