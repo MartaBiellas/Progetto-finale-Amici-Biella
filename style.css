@@ -214,8 +214,10 @@ p{line-height: 28px; font-weight: 300;}
 }
 
 .icons img{
-  width: 5%;
-  height: 5%;
+  /* width: 5%;
+  height: 5%; */
+  width: 50px;
+  height: 50px;
   float: left;
   margin-right: 1%;
 }
@@ -245,7 +247,7 @@ p{line-height: 28px; font-weight: 300;}
   overflow: auto;
  }
 
- .fila{
+.fila{
   margin-bottom: 30px;
   /* padding: 0.04px; */
   display: inline-block;
