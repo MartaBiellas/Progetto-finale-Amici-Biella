@@ -315,7 +315,6 @@ p{line-height: 28px; font-weight: 300;}
 .pallini-titolo-active{
   display: block;
   margin-bottom: 5px;
-  /* font-size: 1rem; */
   color: #000;
   text-transform: uppercase;
   float: central bottom;
@@ -422,7 +421,6 @@ p{line-height: 28px; font-weight: 300;}
     overflow: auto;
     width: 19.2%;
     border-bottom: 3px solid red;
-    
   }
 
   .ciao img{
@@ -431,7 +429,7 @@ p{line-height: 28px; font-weight: 300;}
     display: inline-block;
     margin-bottom: 0px;
     overflow: auto;
-   }
+  }
 }
 
 @media (max-width: 500px){
