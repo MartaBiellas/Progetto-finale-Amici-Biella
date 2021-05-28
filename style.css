@@ -37,8 +37,9 @@ p{line-height: 28px; font-weight: 300;}
   top:0;
   left:50%;
   transform: translateX(-50%);
-  padding: 30px;
+  padding: 15px;
   display: flex;
+  background-color: #4427003d;
 }
 
 .logo{z-index: 1}
@@ -60,6 +61,7 @@ p{line-height: 28px; font-weight: 300;}
   text-shadow: 0px 0px 5px rgb(0, 0, 0);
   padding: 15px;
   font-weight: bold;
+  font-size: 20px;
   display: block;
 }
 
@@ -69,6 +71,11 @@ p{line-height: 28px; font-weight: 300;}
   text-align: right;
   width: 40px;
   margin-left: 10px;
+}
+
+
+@media (max-width: 840px) {
+  .menu li a{font-size: 16px}
 }
 
 @media (max-width: 779px) {
@@ -96,7 +103,7 @@ p{line-height: 28px; font-weight: 300;}
   .logo img{width: 50px;}
   .social img{
     text-align: center;
-    width: 30px;
+    width: 42px;
   }
 
   .hamburger span{background: #fff;height: 3px;width: 100%;display: block;margin-bottom: 5px;}
@@ -580,6 +587,8 @@ p{line-height: 28px; font-weight: 300;}
   margin-bottom: 0px;
 }
 
+
+
 /* ! Content */
 .content{max-width: 900px; margin: 40px auto;}
 
@@ -619,6 +628,17 @@ p{line-height: 28px; font-weight: 300;}
   .mt-4{background: #ffb254}
 }
 
+/* position dots up a bit */
+.flickity-page-dots {
+  bottom: -22px;
+}
+/* dots are lines */
+.flickity-page-dots .dot {
+  height: 4px !important; 
+  width: 40px !important;
+  margin: 0!important;
+  border-radius: 0!important;
+}
 
 *,
 *:before,
