@@ -15,7 +15,26 @@ p{line-height: 28px; font-weight: 300;}
 .small-text{font-size: 14px;}
 .intro-text{font-size: 30px; font-weight: bold; line-height: 38px}
 
-.button{padding: 18px 28px; background: #ca0000; color:#fff; display: inline-block;border-radius: 4px}
+.button{padding: 13px 50px 13px 20px; background: #ca0000; color:#fff; display: inline-block;border-radius: 4px; position: relative}
+.button:after{
+  content:" ";
+  width: 30px;
+  height: 30px;
+  display: block;
+  background: url(immagni/freccia.svg) no-repeat center center;
+  position: absolute; right: 10px; top: 6px;
+}
+
+.bottone{padding: 13px 50px 13px 20px; background: #4e9151; color:#fff; display: inline-block;border-radius: 4px; position: relative}
+.bottone:after{
+  content:" ";
+  width: 30px;
+  height: 30px;
+  display: block;
+  background: url(immagni/telefono.svg) no-repeat center center;
+  position: absolute; right: 10px; top: 6px;
+}
+
 .prod{margin-left: 42%; padding: 18px 28px; background: #ca0000; color:#fff; border-radius: 4px}
 
 @media (max-width: 768px) {
