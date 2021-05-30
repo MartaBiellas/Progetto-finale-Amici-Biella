@@ -593,6 +593,19 @@ p{line-height: 28px; font-weight: 300;}
   text-shadow: 0px 0px 5px rgb(255, 254, 254);
 }
 
+@media (max-width: 1262px){
+  .dota{
+    height: 262px;
+    width: 262px;
+    background: #6adf91;
+    border-radius: 100%;
+    line-height: 262px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+  }
+}
+
 
 /* Footer */
 .footer{
