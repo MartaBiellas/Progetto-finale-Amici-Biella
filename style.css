@@ -15,7 +15,7 @@ p{line-height: 28px; font-weight: 300;}
 .small-text{font-size: 14px;}
 .intro-text{font-size: 30px; font-weight: bold; line-height: 38px}
 
-.button{padding: 13px 50px 13px 20px; background: #ca0000; color:#fff; display: inline-block;border-radius: 4px; position: relative}
+.button{padding: 13px 50px 13px 15px; background: #ca0000; color:#fff; display: inline-block;border-radius: 4px; position: relative; transition: all 0.3s ease-in-out;}
 .button:after{
   content:" ";
   width: 30px;
@@ -23,7 +23,15 @@ p{line-height: 28px; font-weight: 300;}
   display: block;
   background: url(immagni/freccia.svg) no-repeat center center;
   position: absolute; right: 10px; top: 6px;
+  transition: all 0.3s ease-in-out;
 }
+.button:hover:after{
+  right: 5px;
+}
+.button:hover{
+  background: #008a39;
+}
+  
 
 .bottone{padding: 13px 50px 13px 20px; background: #4e9151; color:#fff; display: inline-block;border-radius: 4px; position: relative}
 .bottone:after{
@@ -33,9 +41,31 @@ p{line-height: 28px; font-weight: 300;}
   display: block;
   background: url(immagni/telefono.svg) no-repeat center center;
   position: absolute; right: 10px; top: 6px;
+  transition: all 0.3s ease-in-out;
 }
 
-.prod{margin-left: 42%; padding: 18px 28px; background: #ca0000; color:#fff; border-radius: 4px}
+.prod{
+  margin: 0% 35% 0% 35% ;
+  padding: 18px 28px; 
+  background: #ca0000; 
+  color:#fff; 
+  border-radius: 4px; 
+  text-align:center;
+  transition: 1s ease;
+  -moz-transition: 1s ease;
+  -webkit-transition: 1s ease; 
+  -o-transition: 1s ease; 
+  transform : 1s ease; 
+}
+.prod:hover{
+  transform : scale(1.3);
+  -moz-transform : scale(1.3);
+  -webkit-transform : scale(1.3); 
+  -o-transform : scale(1.3);
+  -ms-transform : scale(1.3);
+}
+
+/*finire PROD*/
 
 @media (max-width: 768px) {
   .big-text{font-size: 50px;}
