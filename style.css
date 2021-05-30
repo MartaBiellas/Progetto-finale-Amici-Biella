@@ -488,14 +488,14 @@ p{line-height: 28px; font-weight: 300;}
 
 .carosello{
   counter-increment: faseIndex;
-    width: 280px;
-    padding: 10px;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    text-align: center;
-    position: relative;
+  width: 280px;
+  padding: 10px;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  text-align: center;
+  position: relative;
 }
 
 .carosello img{
@@ -549,8 +549,8 @@ p{line-height: 28px; font-weight: 300;}
 }
 
 .dota{
-  height: 262px;
-  width: 262px;
+  height: 320px;
+  width: 320px;
   background: #6adf91;
   border-radius: 100%;
   line-height: 262px;
