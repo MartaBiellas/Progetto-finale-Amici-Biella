@@ -15,6 +15,16 @@ p{line-height: 28px; font-weight: 300;}
 .small-text{font-size: 14px;}
 .intro-text{font-size: 30px; font-weight: bold; line-height: 38px}
 
+@media (max-width: 768px) {
+  .big-text{font-size: 50px;}
+  .big-texta{font-size: 55px;}
+  .intro-text{font-size: 20px; line-height: 28px}
+}
+
+@media (max-width: 1200px) {
+  .big-text{font-size: 40px;}
+}
+
 .button{padding: 13px 50px 13px 15px; background: #ca0000; color:#fff; display: inline-block;border-radius: 4px; position: relative; transition: all 0.3s ease-in-out;}
 .button:after{
   content:" ";
@@ -62,18 +72,6 @@ p{line-height: 28px; font-weight: 300;}
 }
 .prod a{ 
   color:#fff; 
-}
-
-/*finire PROD*/
-
-@media (max-width: 768px) {
-  .big-text{font-size: 50px;}
-  .big-texta{font-size: 55px;}
-  .intro-text{font-size: 20px; line-height: 28px}
-}
-
-@media (max-width: 1150px) {
-  .big-text{font-size: 60px;}
 }
 
 
