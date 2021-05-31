@@ -60,7 +60,7 @@ p{line-height: 28px; font-weight: 300;}
   color:#fff; 
   border-radius: 4px; 
   text-align:center;
-  transition: all 1s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .prod:hover{
   background: #ca0000; 
