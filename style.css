@@ -498,7 +498,6 @@ p{line-height: 28px; font-weight: 300;}
     width: 100%;
   }
 }
-/* ---- fine roba ester --- */
 
 
 /* ! Grid */
@@ -687,17 +686,18 @@ p{line-height: 28px; font-weight: 300;}
   .mt-4{background: #ffb254}
 }
 
-/* position dots up a bit */
+/* position dots up a bit*/
 .flickity-page-dots {
   bottom: -22px;
 }
-/* dots are lines */
+/* dots are lines*/ 
 .flickity-page-dots .dot {
   height: 4px !important; 
   width: 40px !important;
   margin: 0!important;
   border-radius: 0!important;
 }
+ 
 
 *,
 *:before,
