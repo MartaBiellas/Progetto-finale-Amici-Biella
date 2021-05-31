@@ -241,9 +241,6 @@ p{line-height: 28px; font-weight: 300;}
   .bg-cover__title{width: 100%;}
 }
 
-
-
-/* ----- per pagine di ester ---- */
 .testo{
   text-align: left;
   padding: 100px;
@@ -316,7 +313,6 @@ p{line-height: 28px; font-weight: 300;}
   vertical-align: middle;
   width: 100%;
   height: auto;
-  /* -ms-interpolation-mode: bicubic; */
 }
 
 .p1{
@@ -388,7 +384,6 @@ p{line-height: 28px; font-weight: 300;}
   width: 15%;
 }
 
-/*media delle mie classi*/
 @media (max-width: 1200px) {
 
   .ull{
@@ -441,14 +436,12 @@ p{line-height: 28px; font-weight: 300;}
   .icons img{
     width: 50px;
     height: 50px;
-    /* float: center; */
     margin-left: 47%;
     margin-right: 43%;
   }
   
   .icons p{
     width: 100%;
-    /* float: center; */
     text-align: center;
     padding-bottom: 0px;
   }
@@ -498,7 +491,6 @@ p{line-height: 28px; font-weight: 300;}
     width: 100%;
   }
 }
-/* ---- fine roba ester --- */
 
 
 /* ! Grid */
@@ -595,8 +587,8 @@ p{line-height: 28px; font-weight: 300;}
 }
 
 .dota{
-  height: 262px;
-  width: 262px;
+  height: 320px;
+  width: 320px;
   background: #6adf91;
   border-radius: 100%;
   line-height: 262px;
